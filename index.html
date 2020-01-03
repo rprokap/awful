@@ -1,9 +1,83 @@
 <!DOCTYPE html>
 <html>
   <body>
+    <p id="n"></p>
+    <style>
+      * {
+        color: black;
+      }
+      * {
+        font-family: "Times New Roman", Times, serif;
+      }
+      * {
+        transform: scaleY(1);
+      }
+      * {
+        transform: scaleX(1);
+      }
+      *:hover {
+        color: black;
+      }
+      *:hover {
+        font-family: "Times New Roman", Times, serif;
+      }
+      *:hover {
+        transform: scaleY(1);
+      }
+      *:hover {
+        transform: scaleX(1);
+      }
+      *:active {
+        color: black;
+      }
+      *:active {
+        font-family: "Times New Roman", Times, serif;
+      }
+      *:active {
+        transform: scaleY(1);
+      }
+      *:active {
+        transform: scaleX(1);
+      }
+      p { 
+        color: black;
+      }
+      p {
+        font-family: "Times New Roman", Times, serif;
+      }
+      p {
+        transform: scaleY(1);
+      }
+      p {
+        transform: scaleX(1);
+      }
+      p:hover {
+        color: black;
+      }
+      p:hover {
+        font-family: "Times New Roman", Times, serif;
+      }
+      p:hover {
+        transform: scaleY(1);
+      }
+      p:hover {
+        transform: scaleX(1);
+      }
+      p:active {
+        color: black;
+      }
+      p:active {
+        font-family: "Times New Roman", Times, serif;
+      }
+      p:active {
+        transform: scaleY(1);
+      }
+      p:active {
+        transform: scaleX(1);
+      }
+    </style>
 		<script>
-			let o = "";
-			let a = Number(String(1));
+      let a = Number(String(1));
 			let b = Number(String(a + a));
 			let c = Number(String(a + a + a));
 			let d = Number(String(a + a + a + a));
@@ -41,11 +115,27 @@
 																	} if (l == 12) {
 																		l = "d"
 																		} if (m == 13) {
-																			m = "."
+																			m = "!"
 																		}
-			
-			o = a + b + c + d + e + f + g + h + i + j + k + l + m;
-			document.write(o);
+                                    
+      let p = a.toUpperCase();
+      let q = b.toLowerCase();
+      let r = c.toLowerCase();
+      let s = d.toLowerCase();
+      let t = e.toLowerCase();
+      let u = f.toLowerCase();
+      let v = g.toLowerCase();
+      let w = h.toLowerCase();
+      let x = i.toLowerCase();
+      let y = j.toLowerCase();
+      let z = k.toLowerCase();
+      let aA = l.toLowerCase();
+      let bB = m.toLowerCase();
+
+			function o() {
+        return (p + q + r + s + t + u + v + w + x + y + z + aA +bB);
+      }
+			document.getElementById("n").innerHTML = o(p + q + r + s + t + u + v + w + x + y + z + aA +bB);
 		</script>
   </body>
 </html>
